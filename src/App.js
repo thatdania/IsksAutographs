@@ -11,14 +11,28 @@ class App extends Component {
         <header className="Isks Autographs">
           <h1 className="title">Loop</h1>
         </header>
-        <img className="Image" src={Sample1} />
-        <img className="Image"src={Sample2} />
-        <img className="Image"src={Sample3} />
-        <div className="Price">
-          <p>$5</p>
-          <p>$10</p>
-          <p>$15</p>
+
+        <div className="one">
+
+        <div className="two"> 
+          <div className="threeone"> 
+            <img className="Image" src={Sample1} />
+              <p className="Price">$5</p>
+            </div> 
+
+            <div className="threetwo">
+            <img className="Image"src={Sample2} />
+            <p className="Price">$10</p>
+            </div> 
+
+            <div className="threethree"> 
+            <img className="Image"src={Sample3} />
+            <p className="Price">$15</p>
+            </div> 
+
+          </div> 
         </div> 
+        
         
         <button type="button" id="boop" name="boop">boop</button>
         <p>Inquiries @ YungIskk</p>
