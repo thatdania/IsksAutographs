@@ -1,44 +1,56 @@
+.IsksAutographs{  
+  color: white; 
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+
+}
+
 .title{
+  font-size: 70px;
+  border: 2px solid blue; 
 
 }
 
 .two{
-  border: 2px solid blue; 
-  padding: 20px;
+  /* border: 2px solid blue;  */
+  padding: 0px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .image{
-  border: 2px solid green; 
+  /* border: 2px solid green;  */
   padding: 40px;
 }
 
 .Image {
-  width: 300px;
-  height: 400px;
-  border: 2px solid red;
-  margin-bottom: -40px;
+  width: 250px;
+  height: 350px;
+  /* border: 2px solid red; */
+  margin-bottom: -20px;
+  box-shadow: 0 20px 20px #000
 }
 
 .threeone{
-  border: 2px solid yellow;
-  margin: 50px
+  /* border: 2px solid yellow; */
+  margin: 20px 50px;
+  ;
 }
 
 .threetwo{
-  border: 2px solid orange;
-  margin: 50px
+  /* border: 2px solid orange; */
+  margin: 20px 50px
 }
 
 .threethree{
-  border: 2px solid pink;
-  margin: 50px 50px;
+  /* border: 2px solid pink; */
+  margin: 20px 50px;
 }
 
 .Price{
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   font-size: 50px;
   font-weight: bold;
   text-align:center;
@@ -63,8 +75,34 @@
   
 }
 
+.btnposition{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+}
 
-margin-Top: 20px;
-margin-Left: 40px;
-margin-Right: 40px; 
-box-shadow: 0 5px 5px #080e19;
+.boop{
+  /* border: 2px solid pink; */
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 30px;
+  outline: none;  
+
+}
+
+.text{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  color: white; 
+  font-weight: 800;
+  text-shadow:
+  3px 3px 0 #000,
+-1px -1px 0 #000,  
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+  1px 1px 0 #000;
+}

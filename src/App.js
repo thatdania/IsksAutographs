@@ -8,8 +8,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="Isks Autographs">
-          <h1 className="title">Loop</h1>
+        <header className="IsksAutographs">
+          <h1 className="title">LOOP</h1>
         </header>
 
         <div className="one">
@@ -34,8 +34,14 @@ class App extends Component {
         </div> 
         
         
-        <button type="button" id="boop" name="boop">boop</button>
+        <div className="btnposition"> 
+        <button type="button" className="boop">boop</button>
+        </div>
+
+        <div className="text"> 
         <p>Inquiries @ YungIskk</p>
+        </div> 
+
       </div>
     );
   }
