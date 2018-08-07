@@ -35,7 +35,7 @@ class App extends Component {
         
         
         <div className="btnposition"> 
-        <button type="button" className="boop">boop</button>
+        <a className="boop" href="https://www.instagram.com/yungiskk/?hl=en">boop</a>
         </div>
 
         <div className="text"> 
