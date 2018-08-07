@@ -3,6 +3,7 @@ import Sample1 from './images/2.jpg';
 import Sample2 from './images/1.jpg';
 import Sample3 from './images/3.jpg';
 import './App.css';
+import ReactPlayer from 'react-player'
 
 class App extends Component {
   render() {
@@ -40,6 +41,10 @@ class App extends Component {
 
         <div className="text"> 
         <p>Inquiries @ YungIskk</p>
+        </div> 
+
+        <div className="Audio" width="320" height="240">
+         return <ReactPlayer url='https://www.youtube.com/watch?v=Urc9lKFe-m8' playing className="Audio2" />
         </div> 
 
       </div>
